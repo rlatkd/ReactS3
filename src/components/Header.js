@@ -62,7 +62,7 @@ function Header() {
           <div className={styles.first2}>
           {
             isLogin  ? (<button onClick={handleLogout}>로그아웃</button>) : 
-            (<button><Link to='/login'>테스트/회원가입</Link></button>)
+            (<button><Link to='/login'>로그인/회원가입</Link></button>)
           }
 
           </div>
