@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Card({ cardInfo }) {
   console.log(cardInfo + 'd')
-  const { name, title, price, time, img, id } = cardInfo;
+  const { id } = cardInfo;
   return (
     <div className={styles.cardContainer}>
       <Link to={`http://localhost:3000/detail/${id}`}>

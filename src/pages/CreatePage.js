@@ -13,7 +13,7 @@ function CreatePage() {
     userId:''
   });
 
-  const refendTime = useRef(null);
+  
   const refitemName = useRef(null);
   const refitemContent = useRef(null);
   const refitemPrice = useRef(null);
@@ -157,7 +157,7 @@ function CreatePage() {
               onChange={handlerChange}
             />
             {imagePreview && (
-              <img className={styles.previewImage} src={imagePreview} alt="Selected Image" />
+              <img className={styles.previewImage} src={imagePreview} alt="Selected" />
             )}
           </div>
         </div>
