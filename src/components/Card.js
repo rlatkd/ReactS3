@@ -7,7 +7,7 @@ export default function Card({ cardInfo }) {
   const { id } = cardInfo;
   return (
     <div className={styles.cardContainer}>
-      <Link to={`http://http://d3u6h8k7brrkx6.cloudfront.net/:3000/detail/${id}`}>
+      <Link to={`http://d3u6h8k7brrkx6.cloudfront.net/detail/${id}`}>
         {/* {imageUrl && <img src={cardInfo.image} alt="Uploaded" />} */}
         <img className={styles.itemImg} src={`${cardInfo.image}`}  alt="itemImage" />
         <div>
