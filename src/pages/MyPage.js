@@ -14,7 +14,7 @@ function MyPage() {
       const userId = localStorage.getItem('userId');
   
       axios
-        .get(`http://127.0.0.1:5000/mypage/buyitem?id=${userId}`, {  // 엔드포인트 변경
+        .get(`http://43.202.66.215:5000/mypage/buyitem?id=${userId}`, {  // 엔드포인트 변경
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -30,7 +30,7 @@ function MyPage() {
       const userId = localStorage.getItem('userId');
   
       axios
-        .get(`http://127.0.0.1:5000/mypage/myitem?id=${userId}`, {  // 엔드포인트 변경
+        .get(`http://43.202.66.215:5000/mypage/myitem?id=${userId}`, {  // 엔드포인트 변경
           headers: {
             'Authorization': `Bearer ${token}`
           }
